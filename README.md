@@ -4,11 +4,11 @@ This project implements a flash loan contract using Solidity. The contract allow
 
 ## Project Structure
 
-- **contracts/FlashLoan.sol**: Contains the Solidity contract for the flash loan, including functions for initiating a flash loan, executing loan logic, and repaying the loan.
+- **FlashLoan.sol**: Contains the Solidity contract for the flash loan, including functions for initiating a flash loan, executing loan logic, and repaying the loan.
   
-- **migrations/1_deploy_contracts.js**: Used for deploying the `FlashLoan` contract to the blockchain. It exports a function that utilizes Truffle's migration system.
+- **1_deploy_contracts.js**: Used for deploying the `FlashLoan` contract to the blockchain. It exports a function that utilizes Truffle's migration system.
 
-- **test/flashLoanTest.js**: Contains test cases for the `FlashLoan` contract, ensuring that all functions work as intended using a testing framework like Mocha or Chai.
+- **flashLoanTest.js**: Contains test cases for the `FlashLoan` contract, ensuring that all functions work as intended using a testing framework like Mocha or Chai.
 
 - **truffle-config.js**: Configuration file for Truffle, specifying network settings, compiler version, and other necessary configurations for deploying and testing the smart contracts.
 
@@ -21,8 +21,8 @@ This project implements a flash loan contract using Solidity. The contract allow
 
 2. **Clone the Repository**: Clone this repository to your local machine:
    ```
-   git clone <repository-url>
-   cd flash-loan-contract
+   git clone https://github.com/TheCu1t/Flashloans/
+   cd Flashloans
    ```
 
 3. **Install Project Dependencies**: Navigate to the project directory and install the required dependencies:
